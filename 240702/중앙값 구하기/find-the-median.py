@@ -1,11 +1,11 @@
 a,b,c = map(int, input().split())
 
-if a>=b and a>=c :
+if a>=b :
     if b>=c :
         print(b)
     else :
-        print(C)
-elif b>=a and b>=c :
+        print(c)
+elif b>=a :
     if a>=c :
         print(a)
     else :
